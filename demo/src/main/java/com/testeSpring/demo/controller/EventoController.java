@@ -18,7 +18,7 @@ public class EventoController {
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String formIndex() {
 
-		return "index.html";
+		return "index";
 
 	}
 
